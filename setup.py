@@ -7,7 +7,7 @@ setup(
         author="Ravinder Singh",
         author_email="ravinder.sandhu@pm.me",
         install_requires=["requests", "bs4", "cython;sys_platform=='cygwin'","PyCygwin;sys_platform=='cygwin'"],
-        packages=["utorrent-control"],
+        packages=["ucontrol"],
         python_requires=">=3",
         )
 
