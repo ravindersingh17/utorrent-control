@@ -6,7 +6,7 @@ setup(
         description="Python bindings for utorrent API",
         author="Ravinder Singh",
         author_email="ravinder.sandhu@pm.me",
-        install_requires=["requests", "bs4", "cython;platform_system=='cygwin'","PyCygwin;platform_system==cygwin"],
+        install_requires=["requests", "bs4", "cython;platform_system=='cygwin'","PyCygwin;platform_system=='cygwin'"],
         packages=["ucontrol"],
         python_requires=">=3",
         )
